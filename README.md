@@ -1,2 +1,4 @@
 # Multi-Class-Logistic-Regression-and-Gradient-Descent
 In this project, we implemented multi-class logistic regression from scratch and compared it with K-Nearest Neighbours (KNN) and Naive Bayes on the digits dataset and letters dataset from OpenML. We tracked performance indicators such as the accuracy and the running time of models with different hyper-parameters using a simple grid search. We have found that both logistic regression and KNN work well in classical multi-class classification problems. Logistic regression is fast during prediction while KNN struggles to scale with large datasets. Naive Bayes, on the other hand, has lower accuracy due to holding a strong and wrong assumption for our datasets.
+
+In terms of coding, we implemented some commonly used functions and schemes in machine learning and use our implementation to train a multi-class logistic regression, and did a hyperparameter grid search.
